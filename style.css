@@ -38,11 +38,12 @@ a {
 .main {
   color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   text-align: center;
   height: 120px;
   margin-top: 5rem;
+  gap: 100px;
 }
 .main a:hover {
   color: #3edada;
