@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+  background-image: url(images/blue.png);
+}
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+  line-height: 1.7;
+  color: #432;
+}
+.yokoberu {
+  text-align: center;
+}
+.yokoberu a {
+  max-width: 100px;
+  margin: auto;
+}
+.header-img {
+  padding-bottom: 3rem;
+}
+.cover {
+  background-size: cover;
+  background-position: center bottom;
+  height: 600px;
+}
+a {
+  text-decoration: none;
+}
+.font-english {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+.main {
+  color: black;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  height: 120px;
+  margin-top: 5rem;
+}
+.main a:hover {
+  color: #3edada;
+}
+.main a {
+  padding: 1rem; 
+  margin: 1rem;
+  color: #432;
+  border-radius: 8px;
+}
+.wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1 1.5rem;
+}
+.wrapper a {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1 1.5rem;
+}
+.page-title {
+  margin-top: 3rem;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1;
+}
+.logo {
+  width: 100px;
+  max-width: 100%;
+  height: 100px;
+  border-radius: 50%;
+}
+.yoko {
+  display: flex;
+  justify-content: center;
+}
+.large {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+p {
+  font-size: 1rem;
+  max-width: 736px;
+  padding: 0 1.5rem;
+  margin: 3rem auto 4rem;
+}
