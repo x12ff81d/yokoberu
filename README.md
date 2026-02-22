@@ -1,2 +1,2 @@
 練習用
-Cat Lounge YOKOBERU
+Cat Lounge BERU
