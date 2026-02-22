@@ -100,15 +100,43 @@ p {
 .btn {
   display: inline-block;
   font-size: 1.5rem;
-  background-color: #0bd;
+  background-color: rgb(255, 165, 29);
   color: #fff;
   border-radius: 8px;
   padding: .75rem 1.5rem;
   transition: .5s;
 }
 .btn:hover {
-  background-color: rgb(1, 158, 185);
+  background-color: rgb(233, 140, 19);
   scale: 1.2;
+}
+.staff {
+  margin-top: 300px;
+}
+.img {
+  text-align: center;
+}
+.img img {
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+.beruchan {
+  text-align: center;
+}
+.beru-info {
+  width: 100%;
+  max-width: 544px;
+  margin: auto;
+  padding: 0  1.5rem;
+  border-spacing: 0;
+}
+.beru-info th {
+  text-align: left;
+  font-weight: bold;
+  padding-left: rem;
+}
+.beru-info td {
+  padding: 1rem 0;
 }
 .copyright {
   background-color: #432;
