@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
-html {
+.home-bg {
   font-size: 100%;
-  background-image: url(images/yellow.png);
+  background-image: url(images/home-bg.png);
   background-size: cover;
-  
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 body {
   font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
@@ -20,7 +22,7 @@ body {
 }
 .shopname {
   margin-top: 2rem;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 .header-img {
   padding-bottom: 3rem;
@@ -67,17 +69,18 @@ a {
   margin: auto;
   padding: 1 1.5rem;
 }
-.page-title {
+.page-title
+ {
   margin-top: 3rem;
   font-size: 4rem;
   text-align: center;
   line-height: 1;
-  color: #fa7d16;
+  color: #2585f3;
 }
 .logo {
-  width: 100px;
+  width: 150px;
   max-width: 100%;
-  height: 100px;
+  height: 150px;
   border-radius: 50%;
   margin-top: 1.5rem;
 }
@@ -92,8 +95,9 @@ a {
 p {
   font-size: 1rem;
   max-width: 736px;
-  margin: 3rem auto 4rem;
+  margin: 1rem auto 4rem;
   padding: 0 2rem;
+  line-height: 2;
 }
 .menu {
   text-align: center;
@@ -112,7 +116,7 @@ p {
   scale: 1.2;
 }
 .staff {
-  margin-top: 300px;
+  margin-top:10rem;
 }
 .img {
   text-align: center;
@@ -130,6 +134,7 @@ p {
   margin: auto;
   padding: 0  1.5rem;
   border-spacing: 0;
+  margin-top: 3rem;
 }
 .beru-info th {
   text-align: left;
@@ -149,7 +154,7 @@ p {
 .info {
   text-align: center;
   font-size: 3rem;
-  margin-top: 200px;
+  margin-top: 10rem;
   margin-bottom: 1rem;
 }
 .info-t {
@@ -170,7 +175,41 @@ p {
 }
 .info-t td {
   padding: 1rem 0;
-
 }
 
+/* News */
+.news-bg {
+  font-size: 100%;
+  background-image: url(images/news-bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.newspage-title {
+  margin-top: 3rem;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1;
+  color: #432;
+}
 
+/* Menu */
+.menu-bg {
+  font-size: 100%;
+  background-image: url(images/menu-bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Contact */
+.contact-bg {
+  font-size: 100%;
+  background-image: url(images/contact-bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
