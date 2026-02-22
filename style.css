@@ -19,7 +19,8 @@ body {
   margin: auto;
 }
 .shopname {
-  margin-top: 4rem;
+  margin-top: 2rem;
+  font-size: 2rem;
 }
 .header-img {
   padding-bottom: 3rem;
@@ -171,3 +172,4 @@ p {
   padding: 1rem 0;
 
 }
+
