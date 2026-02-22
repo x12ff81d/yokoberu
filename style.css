@@ -3,10 +3,10 @@
 .home-bg {
   font-size: 100%;
   background-image: url(images/home-bg.png);
-  background-size: cover;
-  background-position: center center;
+  background-size: cover; /*ページ一杯に背景を表示する*/
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; /*ページスクロールしても背景が動かなくなる*/
 }
 body {
   font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
@@ -23,6 +23,9 @@ body {
 .shopname {
   margin-top: 2rem;
   font-size: 5rem;
+}
+.shopname a {
+  color: #432;
 }
 .header-img {
   padding-bottom: 3rem;
@@ -53,6 +56,13 @@ a {
 }
 .main a:hover {
   color: #3edada;
+  scale: 1.3;
+}
+.large {
+  display: inline-block; /*scaleが作動するのに必要*/
+  font-size: 2rem;
+  padding: .75rem 1.5rem;
+  transition: .1s;
 }
 .main a {
   padding: 1rem; 
@@ -75,7 +85,7 @@ a {
   font-size: 3rem;
   text-align: center;
   line-height: 1;
-  color: rgb(248, 135, 21);
+  color: #432;
 }
 .logo {
   width: 150px;
@@ -109,11 +119,11 @@ p {
   color: #fff;
   border-radius: 8px;
   padding: .75rem 1.5rem;
-  transition: .5s;
+  transition: .1s;
 }
 .btn:hover {
   background-color: rgb(233, 140, 19);
-  scale: 1.2;
+  scale: 1.1;
 }
 .staff {
   margin-top:10rem;
