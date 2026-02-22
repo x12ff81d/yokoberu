@@ -19,7 +19,7 @@ body {
   margin: auto;
 }
 .shopname {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 .header-img {
   padding-bottom: 3rem;
@@ -169,4 +169,5 @@ p {
 }
 .info-t td {
   padding: 1rem 0;
+
 }
