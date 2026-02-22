@@ -2,7 +2,12 @@
 
 .home-bg {
   background-image: url(images/home-bg.png);
-  
+  background-size: cover; /* 画像を画面サイズに合わせて調整 */
+  background-position: center; /* 画像の位置を中央に設定 */
+  background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
+  width: 100%; /* 幅を画面全体に設定 */
+  height: 100%; /* 高さを画面全体に設定 */
+  background-attachment: fixed; /*ページスクロールしても背景が動かなくなる*/
 }
 body {
   font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
@@ -97,9 +102,8 @@ a {
 }
 p {
   font-size: 1rem;
-  max-width: 736px;
+  max-width: 600px;
   margin: 1rem auto 4rem;
-  padding: 0 2rem;
   line-height: 2;
 }
 .menu {
