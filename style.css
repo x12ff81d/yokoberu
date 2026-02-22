@@ -74,11 +74,13 @@ a {
   max-width: 1000px;
   margin: auto;
   padding: 1 1.5rem;
+  overflow: hidden;
 }
 .wrapper a {
   max-width: 1000px;
   margin: auto;
   padding: 1 1.5rem;
+  overflow: hidden;
 }
 .page-title
  {
