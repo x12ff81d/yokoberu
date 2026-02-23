@@ -51,9 +51,10 @@ a {
   justify-content: center;
   list-style: none;
   text-align: center;
-  height: 120px;
+  height: 150px;
   margin-top: 5rem;
-  gap: 80px;
+  gap: 3rem;
+  
 }
 .main a:hover {
   color: #3edada;
@@ -250,6 +251,10 @@ p {
   background-color: #d8d7d679;
   text-align: center;
   
+}
+.icon1 {
+  width: 30px;
+  height: 30px;
 }
 
 @media screen and (max-width:1100px) {
