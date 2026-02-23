@@ -61,7 +61,7 @@ a {
 }
 .large {
   display: inline-block; /*scaleが作動するのに必要*/
-  font-size: 2rem;
+  font-size: rem;
   padding: .75rem 1.5rem;
   transition: .1s;
 }
@@ -274,7 +274,13 @@ p {
 .info-a {
   padding-top: 10rem;
 }
+.large {
+  display: inline-block; /*scaleが作動するのに必要*/
+  font-size: 3rem;
+  padding: .75rem 1.5rem;
+  transition: .1s;
 }
 .title {
   padding-bottom: 1rem;
+}
 }
