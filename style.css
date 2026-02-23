@@ -267,7 +267,7 @@ p {
     font-size: 8rem;
   }
   .page-title {
-    font-size: 5rem;
+    font-size: 6rem;
   }
   .cover {
     margin-bottom: 1rem;
@@ -287,5 +287,9 @@ p {
 }
 .title {
   padding-bottom: 1rem;
+}
+.icon1 {
+  width: 50px;
+  height: 50px;
 }
 }
