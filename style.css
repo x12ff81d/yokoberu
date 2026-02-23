@@ -11,7 +11,15 @@
 }
 .header-bg {
   background-image: url(images/beru-headerbg.jpg);
+  background-size: 100% auto;
   height: 400px;
+}
+.title {
+  height: 800px;
+  width: 100%;
+}
+.title img {
+  max-width: 100%;
 }
 body {
   font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
@@ -303,6 +311,7 @@ p {
 }
 .title {
   padding-bottom: 1rem;
+  width: 100%;
 }
 .icon1 {
   width: 80px;
