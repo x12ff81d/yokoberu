@@ -254,7 +254,7 @@ p {
   
 }
 
-@media (max-width: 800px) {
+@media (max-width: 480px) {
   p {
     font-size: 2rem;
   }
