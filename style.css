@@ -253,3 +253,15 @@ p {
   text-align: center;
   
 }
+
+@media (max-width: 800px) {
+  p {
+    font-size: 2rem;
+  }
+  footer {
+    font-size: 2rem;
+  }
+  .beru-info {
+    font-size: 2rem;
+  }
+}
