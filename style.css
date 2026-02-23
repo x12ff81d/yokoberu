@@ -265,13 +265,13 @@ p {
   }
   .page-title {
     font-size: 7rem;
-    padding-top: 7rem;
+    padding-top: 5rem;
   }
   .cover {
     margin-bottom: 1rem;
   }
   .shopname {
-    font-size: 8rem;
+    font-size: 10rem;
     line-height: 1.2;
   }
   .charge {
@@ -287,5 +287,5 @@ p {
 }
 }
 .title {
-  padding-bottom: 25rem;
+  padding-bottom: 8rem;
 }
