@@ -34,8 +34,7 @@ body {
 .cover {
   background-size: cover;
   background-position: center bottom;
-  height: 600px;
-  margin-bottom: 10rem;
+  height: 400px;
 }
 a {
   text-decoration: none;
@@ -259,7 +258,6 @@ p {
   .beru-info {
     font-size: 2rem;
   }
-  .about,
   .info {
     font-size: 8rem;
   }
@@ -276,15 +274,10 @@ p {
   .charge {
     padding-top: 10rem;
   }
-  .price-title {
-  text-align: center;
-  font-size: 5rem;
-  padding-top: 5rem;
-}
 .info-a {
-  padding-top: 20rem;
+  padding-top: 10rem;
 }
 }
 .title {
-  padding-bottom: 8rem;
+  padding-bottom: 1rem;
 }
