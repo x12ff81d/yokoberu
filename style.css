@@ -447,6 +447,10 @@ iframe {
   gap: 1rem 1rem;
   grid-template-columns: repeat(2, 1fr);
 }
+.map {
+  text-align: center;
+  margin-bottom: 1rem
+}
 .email {
   max-width: 800px;
   margin: auto;
@@ -460,9 +464,5 @@ iframe {
 }
 .instagram-media {
  height: 1000px;
-}
-.wrapper {
-  margin: auto;
-  padding: 1 1.5rem;
 }
 }
