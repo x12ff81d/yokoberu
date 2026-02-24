@@ -360,4 +360,10 @@ p {
   background-size: 100% auto;
   height: 400px;
 }
+.shopname2 {
+  margin-top: 3rem;
+  font-size: 8rem;
+  margin-left: 1rem;
+  color: rgb(240, 255, 255);
+}
 }
