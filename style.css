@@ -41,6 +41,12 @@ body {
 .shopname a {
   color: rgb(31, 30, 30);
 }
+.shopname2 {
+  margin-top: 3rem;
+  font-size: 8rem;
+  margin-left: 1rem;
+  color: rgb(240, 255, 255);
+}
 .header-img {
   padding-bottom: 3rem;
 }
