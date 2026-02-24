@@ -456,10 +456,13 @@ iframe {
 }
 .blockquote {
   margin: auto;
-  text-align: center;
   margin-left: 13rem;
 }
 .instagram-media {
  height: 1000px;
+}
+.wrapper {
+  margin: auto;
+  padding: 1 1.5rem;
 }
 }
