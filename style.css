@@ -47,6 +47,12 @@ body {
   margin-left: 1rem;
   color: rgb(240, 255, 255);
 }
+.shopname3 {
+  margin-top: 6rem;
+  font-size: 5rem;
+  margin-right: 2rem;
+  color: rgb(212, 152, 99);
+}
 .header-img {
   padding-bottom: 3rem;
 }
@@ -361,8 +367,8 @@ p {
   height: 400px;
 }
 .shopname2 {
-  margin-top: 6rem;
-  font-size: 5rem;
+  margin-top: 4rem;
+  font-size: 6rem;
   margin-left: 1rem;
   color: #f0ffff;
 }
