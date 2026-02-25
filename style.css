@@ -80,7 +80,7 @@ a {
   padding-top: .5rem;
 }
 .mainmenucolor {
-background-color: #fcb15c;
+background-color: #ffbc6f;
 }
 .beruberuberu {
   display: flex;
@@ -156,14 +156,14 @@ p {
 .btn {
   display: inline-block;
   font-size: 1.5rem;
-  background-color: rgb(255, 165, 29);
+  background-color: #ffa51d;
   color: #fff;
   border-radius: 8px;
   padding: .75rem 1.5rem;
   transition: .1s;
 }
 .btn:hover {
-  background-color: rgb(233, 140, 19);
+  background-color: #e98c13;
   scale: 1.1;
 }
 .staff {
@@ -382,7 +382,7 @@ iframe {
  height: 1000px;
 }
 
-@media screen and (max-width:1100px) {
+@media (max-width:1100px) {
   p,
   footer,
   .beru-info {
@@ -483,6 +483,6 @@ iframe {
   padding-bottom: 10rem;
 }
 .mainmenucolor {
-background-color: #fcb15c;
+background-color: #ffbc6f;
 }
 }
