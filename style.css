@@ -8,6 +8,7 @@
   /*width: 100%; /* 幅を画面全体に設定 */
   /*height: 100%; /* 高さを画面全体に設定 */
   /*background-attachment: fixed; *//*ページスクロールしても背景が動かなくなる*/
+  margin: auto;
 }
 .header-bg {
   background-image: url(images/beru-headerbg.jpg);
@@ -386,11 +387,12 @@ iframe {
   .home-bg {
   background-image: url(images/home-bg.png);
   background-size: cover; /* 画像を画面サイズに合わせて調整 */
-  background-position: center; /* 画像の位置を中央に設定 */
+  background-position: center-bottom; /* 画像の位置を中央に設定 */
   background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
   /*width: 100%; /* 幅を画面全体に設定 */
   /*height: 100%; /* 高さを画面全体に設定 */
   /*background-attachment: fixed; *//*ページスクロールしても背景が動かなくなる*/
+  margin: auto;
 }
   p,
   footer,
