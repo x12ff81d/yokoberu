@@ -2,7 +2,6 @@
 
 .home-bg {
   background-image: url(images/home-bg.png);
-  background-size: cover; /* 画像を画面サイズに合わせて調整 */
   background-attachment: fixed; /*ページスクロールしても背景が動かなくなる*/
 }
 .header-bg {
@@ -381,7 +380,6 @@ iframe {
 @media (max-width:1100px) {
 .home-bg {
   background-image: url(images/home-bg.png);
-  background-size: cover; /* 画像を画面サイズに合わせて調整 */
   background-attachment: fixed; /*ページスクロールしても背景が動かなくなる*/
 }
 p,
