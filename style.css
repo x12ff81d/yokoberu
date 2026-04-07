@@ -81,9 +81,6 @@ a {
   padding-top: .5rem;
   background-color: #e2b888;
 }
-.mainmenucolor {
-background-color: #e2b888;
-}
 .beruberuberu {
   display: flex;
   justify-content: space-between;
@@ -494,5 +491,6 @@ iframe {
   margin-bottom: 6rem;
   margin: auto;
   padding-bottom: 10rem;
+  background-color: #e2b888;
 }
 }
