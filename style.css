@@ -7,7 +7,7 @@
   /*background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
   /*width: 100%; /* 幅を画面全体に設定 */
   /*height: 100%; /* 高さを画面全体に設定 */
-  /*background-attachment: fixed; *//*ページスクロールしても背景が動かなくなる*/
+  background-attachment: fixed;/*ページスクロールしても背景が動かなくなる*/
   margin: auto;
 }
 .header-bg {
@@ -109,7 +109,6 @@ a {
 }
 .large {
   display: inline-block; /*scaleが作動するのに必要*/
-  font-size: rem;
   padding: .75rem 1.5rem;
   transition: .1s;
 }
@@ -246,7 +245,7 @@ p {
   /*background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
   /*width: 100%; /* 幅を画面全体に設定 */
   /*height: 100%; /* 高さを画面全体に設定 */
-  /*background-attachment: fixed; *//*ページスクロールしても背景が動かなくなる*/
+  background-attachment: fixed; /*ページスクロールしても背景が動かなくなる*/
   margin: auto;
 }
 .newspage-title {
@@ -278,8 +277,8 @@ p {
   background-image: url(images/menu-bg.png);
   background-size: cover;
   background-position: center;
-  /*background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
 }
 
 /* Contact */
@@ -288,8 +287,8 @@ p {
   background-image: url(images/contact-bg.png);
   background-size: cover;
   background-position: center;
-  /*background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
   margin: auto;
 }
 
@@ -299,8 +298,8 @@ p {
   background-image: url(images/price.png);
   background-size: cover;
   background-position: center;
-  /*background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
 }
 
 /* Contact */
