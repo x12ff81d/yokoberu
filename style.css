@@ -101,7 +101,6 @@ background-color: #e2b888;
   height: 150px;
   margin-top: 5rem;
   gap: 3rem;
-  
 }
 .main a:hover {
   color: #3edada;
@@ -495,8 +494,5 @@ iframe {
   margin-bottom: 6rem;
   margin: auto;
   padding-bottom: 10rem;
-}
-.mainmenucolor {
-background-color: #ffbc6f;
 }
 }
