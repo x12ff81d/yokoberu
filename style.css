@@ -7,12 +7,15 @@
   /*background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
   /*width: 100%; /* 幅を画面全体に設定 */
   /*height: 100%; /* 高さを画面全体に設定 */
-  /*background-attachment: fixed; *//*ページスクロールしても背景が動かなくなる*/
+  background-attachment: fixed; /*ページスクロールしても背景が固定される*/
   margin: auto;
 }
 .header-bg {
   background-image: url(images/beru-headerbg.jpg);
   background-size: 100%;
+}
+.header-img {
+  padding-bottom: 3rem;
 }
 .title {
   height: 600px;
@@ -54,14 +57,6 @@ body {
   margin-right: 2rem;
   color: #d49863;
 }
-.header-img {
-  padding-bottom: 3rem;
-}
-.cover {
-  background-size: cover;
-  background-position: center bottom;
-  height: 400px;
-}
 a {
   text-decoration: none;
 }
@@ -79,9 +74,18 @@ a {
 .mainmenu {
   height: auto;
   padding-top: .5rem;
+  background-color: #dfaf78;
 }
-.mainmenucolor {
-background-color: #ffbc6f;
+.cover1 {
+  /*background-position: center bottom;*/
+  height: 400px;
+}
+.cover2 {
+  background-size: cover;
+  background-position: center bottom;
+}
+.wrapper2 {
+  margin: auto;
 }
 .beruberuberu {
   display: flex;
@@ -96,11 +100,8 @@ background-color: #ffbc6f;
   display: flex;
   justify-content: center;
   list-style: none;
-  text-align: center;
-  height: 150px;
-  margin-top: 5rem;
-  gap: 3rem;
-  
+  /*margin-top: 5rem;*/
+  /*gap: 3rem;*/
 }
 .main a:hover {
   color: #3edada;
@@ -108,18 +109,12 @@ background-color: #ffbc6f;
 }
 .large {
   display: inline-block; /*scaleが作動するのに必要*/
-  font-size: rem;
-  padding: .75rem 1.5rem;
-  transition: .1s;
+  transition: .2s;
 }
 .main a {
   padding: 1rem; 
   margin: 3rem;
   color: #432;
-}
-.wrapper {
-  margin: auto;
-  padding: 1 1.5rem;
 }
 .wrapper a {
   margin: auto;
@@ -245,7 +240,7 @@ p {
   /*background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
   /*width: 100%; /* 幅を画面全体に設定 */
   /*height: 100%; /* 高さを画面全体に設定 */
-  /*background-attachment: fixed; *//*ページスクロールしても背景が動かなくなる*/
+  background-attachment: fixed;
   margin: auto;
 }
 .newspage-title {
@@ -255,6 +250,14 @@ p {
   line-height: 1;
   color: #432;
 }
+/* Menu */
+.menu-bg {
+  background-image: url(images/menu-bg.png);
+  background-size: cover;
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+}
 .menupage-title {
   margin-top: 3rem;
   margin-bottom: 10rem;
@@ -262,6 +265,15 @@ p {
   text-align: center;
   line-height: 1;
   color: #432;
+}
+/* Contact */
+.contact-bg {
+  background-image: url(images/contact-bg.png);
+  background-size: cover;
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  margin: auto;
 }
 .contactpage-title {
   margin-top: 3rem;
@@ -271,38 +283,15 @@ p {
   line-height: 1;
   color: #432;
 }
-
-/* Menu */
-.menu-bg {
-  background-image: url(images/menu-bg.png);
-  background-size: cover;
-  background-position: center;
-  /*background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
-}
-
-/* Contact */
-.contact-bg {
-  font-size: 100%;
-  background-image: url(images/contact-bg.png);
-  background-size: cover;
-  background-position: center;
-  /*background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
-  margin: auto;
-}
-
 /* Price */
 .price-bg {
-  font-size: 100%;
   background-image: url(images/price.png);
   background-size: cover;
   background-position: center;
-  /*background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
 }
 
-/* Contact */
 .map {
   text-align: center;
   margin-bottom: 1rem
@@ -426,16 +415,9 @@ iframe {
   padding: .75rem 1.5rem;
   transition: .1s;
 }
-.title {
-  padding-bottom: 3rem;
-  width: 100%;
-}
 .icon1 {
   width: 80px;
   height: 80px;
-}
-.header-bg {
-  height: 400px;
 }
 .sub-title {
   margin-top: 10rem;
@@ -490,12 +472,16 @@ iframe {
 .instagram-media {
  height: 1000px;
 }
-.mainmenu {
-  margin-bottom: 6rem;
-  margin: auto;
-  padding-bottom: 10rem;
+.cover2 {
+  background-size: cover;
+  height: 300px;
 }
 .mainmenucolor {
-background-color: #ffbc6f;
+background-color: #dfaf78;
+}
+.beruberuberu {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
 }
