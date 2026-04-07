@@ -411,9 +411,6 @@ iframe {
   .page-title {
     font-size: 6rem;
   }
-  .cover {
-    margin-bottom: 1rem;
-  }
   .shopname {
     font-size: 6rem;
     line-height: 1.2;
@@ -492,9 +489,17 @@ iframe {
  height: 1000px;
 }
 .mainmenu {
-  margin-bottom: 6rem;
-  margin: auto;
-  padding-bottom: 10rem;
+  height: auto;
+  padding-top: .5rem;
   background-color: #e2b888;
+}
+.main {
+  color: #432;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  height: auto;
+  gap: 3rem;
 }
 }
