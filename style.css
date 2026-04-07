@@ -248,7 +248,7 @@ p {
   /*background-attachment: fixed;*/ /*ページスクロールしても背景が動かなくなる*/
   margin: auto;
 }
-.page-title {
+.newspage-title {
   margin-top: 3rem;
   font-size: 4rem;
   text-align: center;
