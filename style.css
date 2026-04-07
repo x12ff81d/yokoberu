@@ -79,9 +79,10 @@ a {
 .mainmenu {
   height: auto;
   padding-top: .5rem;
+  background-color: #e2b888;
 }
 .mainmenucolor {
-background-color: #ffbc6f;
+background-color: #e2b888;
 }
 .beruberuberu {
   display: flex;
