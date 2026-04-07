@@ -7,7 +7,7 @@
   /*background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
   /*width: 100%; /* 幅を画面全体に設定 */
   /*height: 100%; /* 高さを画面全体に設定 */
-  background-attachment: fixed;/*ページスクロールしても背景が動かなくなる*/
+  /*background-attachment: fixed; */ /*ページスクロールしても背景が動かなくなる*/
   margin: auto;
 }
 .header-bg {
@@ -245,10 +245,10 @@ p {
   /*background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
   /*width: 100%; /* 幅を画面全体に設定 */
   /*height: 100%; /* 高さを画面全体に設定 */
-  background-attachment: fixed; /*ページスクロールしても背景が動かなくなる*/
+  /*background-attachment: fixed;*/ /*ページスクロールしても背景が動かなくなる*/
   margin: auto;
 }
-.newspage-title {
+.page-title {
   margin-top: 3rem;
   font-size: 4rem;
   text-align: center;
@@ -278,7 +278,7 @@ p {
   background-size: cover;
   background-position: center;
   /*background-repeat: no-repeat;*/
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 /* Contact */
@@ -288,7 +288,7 @@ p {
   background-size: cover;
   background-position: center;
   /*background-repeat: no-repeat;*/
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   margin: auto;
 }
 
@@ -299,7 +299,7 @@ p {
   background-size: cover;
   background-position: center;
   /*background-repeat: no-repeat;*/
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 /* Contact */
