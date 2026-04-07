@@ -1,2 +1,1 @@
-練習用
-Cat Lounge BERU
+# [Cat Lounge BERU](https://x12ff81d.github.io/yokoberu/)
