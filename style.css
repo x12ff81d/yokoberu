@@ -239,7 +239,7 @@ p {
 
 /* News */
 .news-bg {
-  background-image: url(images/news-bg.png);
+  background-image: url(images/menu-bg.png);
   background-size: cover; /* 画像を画面サイズに合わせて調整 */
   background-position: center; /* 画像の位置を中央に設定 */
   /*background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
@@ -274,7 +274,7 @@ p {
 
 /* Menu */
 .menu-bg {
-  background-image: url(images/menu-bg.png);
+  background-image: url(images/news-bg.png);
   background-size: cover;
   background-position: center;
   /*background-repeat: no-repeat;*/
