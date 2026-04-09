@@ -81,10 +81,25 @@ a {
   font-weight: 400;
   font-style: normal;
 }
-.mainmenu {
+.mainMenu {
   height: auto;
   padding-top: .5rem;
-  background-color: #e2b888;
+  background-color: #e2b888c7;
+}
+.newsMenu {
+   height: auto;
+  padding-top: .5rem;
+  background-color: #75c2e6c7;
+}
+.menuMenu {
+   height: auto;
+  padding-top: .5rem;
+  background-color: #f1ef68c7;
+}
+.contactMenu {
+   height: auto;
+  padding-top: .5rem;
+  background-color: #6bc56bc7;
 }
 .beruberuberu {
   display: flex;
@@ -179,11 +194,12 @@ p {
 }
 .beruchan {
   text-align: center;
+  margin-bottom: 3rem;
 }
 .beru-info {
   margin: auto;
   padding: 0  1.5rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 .beru-info th {
   text-align: left;
@@ -220,7 +236,6 @@ p {
 }
 .info-t {
   margin: auto;
-  padding: 0  1.5rem;
   border-spacing: 0;
 }
 .info-t th,
@@ -239,13 +254,13 @@ p {
 
 /* News */
 .news-bg {
-  background-image: url(images/menu-bg.png);
+  background-image: url(images/news-bg.png);
   background-size: cover; /* 画像を画面サイズに合わせて調整 */
   background-position: center; /* 画像の位置を中央に設定 */
   /*background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
   /*width: 100%; /* 幅を画面全体に設定 */
   /*height: 100%; /* 高さを画面全体に設定 */
-  /*background-attachment: fixed;*/ /*ページスクロールしても背景が動かなくなる*/
+  /*background-attachment: fixed; */ /*ページスクロールしても背景が動かなくなる*/
   margin: auto;
 }
 .newspage-title {
@@ -255,6 +270,18 @@ p {
   line-height: 1;
   color: #432;
 }
+
+/* Menu */
+.menu-bg {
+  background-image: url(images/menu-bg.png);
+  background-size: cover; /* 画像を画面サイズに合わせて調整 */
+  background-position: center; /* 画像の位置を中央に設定 */
+  /*background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
+  /*width: 100%; /* 幅を画面全体に設定 */
+  /*height: 100%; /* 高さを画面全体に設定 */
+  /*background-attachment: fixed; */ /*ページスクロールしても背景が動かなくなる*/
+  margin: auto;
+}
 .menupage-title {
   margin-top: 3rem;
   margin-bottom: 10rem;
@@ -262,6 +289,18 @@ p {
   text-align: center;
   line-height: 1;
   color: #432;
+}
+
+/* Contact */
+.contact-bg {
+  background-image: url(images/contact-bg.png);
+  background-size: cover; /* 画像を画面サイズに合わせて調整 */
+  background-position: center; /* 画像の位置を中央に設定 */
+  /*background-repeat: no-repeat; /* 画像の繰り返しを無効にする */
+  /*width: 100%; /* 幅を画面全体に設定 */
+  /*height: 100%; /* 高さを画面全体に設定 */
+  /*background-attachment: fixed; */ /*ページスクロールしても背景が動かなくなる*/
+  margin: auto;
 }
 .contactpage-title {
   margin-top: 3rem;
@@ -272,29 +311,8 @@ p {
   color: #432;
 }
 
-/* Menu */
-.menu-bg {
-  background-image: url(images/news-bg.png);
-  background-size: cover;
-  background-position: center;
-  /*background-repeat: no-repeat;*/
-  /*background-attachment: fixed;*/
-}
-
-/* Contact */
-.contact-bg {
-  font-size: 100%;
-  background-image: url(images/contact-bg.png);
-  background-size: cover;
-  background-position: center;
-  /*background-repeat: no-repeat;*/
-  /*background-attachment: fixed;*/
-  margin: auto;
-}
-
 /* Price */
 .price-bg {
-  font-size: 100%;
   background-image: url(images/price.png);
   background-size: cover;
   background-position: center;
@@ -308,7 +326,6 @@ p {
   margin-bottom: 1rem
 }
 .email {
-  max-width: 800px;
   margin: auto;
   height: 400px;
   border-radius: 16px;
@@ -367,8 +384,9 @@ p {
   border-radius: 16px;
   width: 350px;
 }
-.footer {
+footer {
   margin-top: 400px;
+  
 }
 .location-map {
   text-align: center;
@@ -383,6 +401,13 @@ iframe {
 }
 .instagram-media {
  height: 1000px;
+}
+.whiteBg {
+  background-color: #f5eee3c7;
+  width: 60%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 16px;
 }
 
 @media (max-width:1100px) {
@@ -415,7 +440,7 @@ iframe {
     line-height: 1.2;
   }
 .info-a {
-  padding-top: 10rem;
+  padding-top: 1rem;
 }
 .large {
   display: inline-block; /*scaleが作動するのに必要*/
@@ -500,5 +525,11 @@ iframe {
   text-align: center;
   height: auto;
   gap: 3rem;
+}
+.whiteBg {
+  background-color: #f5eee3c7;
+  width: 80%;
+  margin: auto;
+  border-radius: 8px;
 }
 }
