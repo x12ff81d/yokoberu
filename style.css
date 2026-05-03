@@ -89,17 +89,17 @@ a {
 .newsMenu {
    height: auto;
   padding-top: .5rem;
-  background-color: #75c2e6c7;
+  background-color: #e2b888c7;
 }
 .menuMenu {
    height: auto;
   padding-top: .5rem;
-  background-color: #f1ef68c7;
+  background-color: #e2b888c7;
 }
 .contactMenu {
    height: auto;
   padding-top: .5rem;
-  background-color: #6bc56bc7;
+  background-color: #e2b888c7;
 }
 .beruberuberu {
   display: flex;
@@ -228,6 +228,9 @@ p {
   margin-top: 10rem;
   margin-bottom: 1rem;
 }
+.space {
+  margin-top: 15rem;
+}
 .infomation-info {
   text-align: center;
   font-size: 3rem;
@@ -319,6 +322,12 @@ p {
   /*background-repeat: no-repeat;*/
   /*background-attachment: fixed;*/
 }
+.price-info {
+  margin: 0 0 10rem;
+  background-color: #ffffff;
+  width: 600px;
+  margin: auto;
+}
 
 /* Contact */
 .map {
@@ -409,6 +418,16 @@ iframe {
   padding: 2rem;
   border-radius: 16px;
 }
+.sns-btn {
+display: flex;
+margin-top: 20px;
+}
+.sns-btn li {
+width: 50px;
+margin-left: 10px;
+margin-right: 10px;
+margin: auto;
+}
 
 @media (max-width:1100px) {
   .home-bg {
@@ -472,6 +491,9 @@ iframe {
 }
 .price-info {
   margin: 0 0 10rem;
+  background-color: #ffffff;
+  width: 600px;
+  margin: auto;
 }
 .header-bg {
   background-image: url(images/beru-headerbg.jpg);
@@ -528,7 +550,7 @@ iframe {
 }
 .whiteBg {
   background-color: #f5eee3c7;
-  width: 80%;
+  width: 90%;
   margin: auto;
   border-radius: 8px;
 }
